@@ -1,0 +1,13 @@
+reproducible-materials/
+├── config.py          # global config, paths, palette
+├── masks.py           # target mask generation
+├── lora_train.py      # LoRA training wrapper (kohya-ss)
+├── generation.py      # Text-Only / Global LoRA / RLIMC
+├── classifier.py      # style classifier training + inference
+├── metrics.py         # boundary IoU, transition width, style purity
+├── statistics.py      # mixed-effects models, factorial ANOVA
+├── figures.py         # Fig1–Fig6, 16:9, 900 DPI
+├── run_all.py         # end-to-end pipeline
+├── data/              # (not included) training images, generated images
+├── outputs/           # generated results, metrics CSV
+└── figures/           # output figures
