@@ -1,0 +1,35 @@
+
+---
+
+## 2. `requirements.txt`
+
+```txt
+# Core
+numpy==1.24.4
+scipy==1.11.4
+pandas==2.1.4
+matplotlib==3.8.2
+
+# Deep learning
+torch==2.1.0
+torchvision==0.16.0
+diffusers==0.25.0
+transformers==4.36.2
+accelerate==0.25.0
+xformers==0.0.23
+peft==0.7.1
+safetensors==0.4.1
+
+# Image / metrics
+Pillow==10.1.0
+scikit-image==0.22.0
+opencv-python==4.8.1.78
+clip @ git+https://github.com/openai/CLIP.git
+
+# Statistics
+statsmodels==0.14.1
+pymc==5.10.0
+arviz==0.16.1
+
+# Progress
+tqdm==4.66.1
